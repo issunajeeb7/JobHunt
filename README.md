@@ -6,14 +6,13 @@ JobHunt is an intelligent job monitoring and recommendation system for data scie
 - **Daily scraping** of job listings from [Karkidi.com](https://www.karkidi.com)
 - **Automatic clustering** of jobs based on required skills (unsupervised ML)
 - **Skill-based job search**: Find jobs matching your interests
-- **(Bonus)** Email notification signup for future alerts
 - **On-demand refresh**: Update job listings from the Streamlit app
 
 ## Installation
 
 1. **Clone the repository**
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/issunajeeb7/JobHunt.git
    cd JobHunt
    ```
 
