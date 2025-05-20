@@ -49,11 +49,7 @@ if st.button("🔄 Refresh Job Listings Now"):
     st.success("Job listings updated!")
     df = get_clustered_jobs()  # Reload the updated data
 
-# --- (Bonus) Email Notification Stub ---
-st.header("Get Notified!")
-user_email = st.text_input("Enter your email to get notified about new jobs matching your skills (feature coming soon):")
-if user_email:
-    st.success(f"Thanks! You'll be notified at {user_email} when this feature is live.")
+
 
 
 
